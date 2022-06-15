@@ -1,0 +1,48 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 2000px;
+    height: 130px;
+    background-color: lavenderblush;
+    margin: 0 auto;
+}
+
+header{
+    padding: 15px;
+
+}
+
+.menu-desk{
+    float: right;
+}
+
+.menu-desk ul{
+    position: relative;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.menu-desk li{
+    color: magenta;
+    padding: 0 40px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.menu-desk a{
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+.menu-desk li.selected{
+    font-weight: bold;
+}
+
+.menu-desk a:hover{
+    text-decoration: underline;
+}
